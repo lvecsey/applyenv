@@ -1,7 +1,9 @@
 
-Takes the texture output from [envgd](https://github.com/lvecsey/envgd) as the filter to apply.
+Takes the texture output from [envgd](https://github.com/lvecsey/envgd) as the filter to apply to a raw audio file.
 
-Start by using .png file as created from the envgd project. For example, place the file as input_signal1-source.png and then generate the raw .rgb file:
+This project also depends on the sox audio conversion utility.
+
+Start by using the .png file as created from the envgd project. For example, place the file as input_signal1-source.png and then generate the corresponding raw .rgb file:
 
 ```console
 make input_signal1.rgb
