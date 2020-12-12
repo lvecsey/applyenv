@@ -7,6 +7,8 @@ Start by using .png file as created from the envgd project. For example, place t
 make input_signal1.rgb
 ```
 
+![input_signal1](https://phrasep.com/~lvecsey/software/envgd/output_envgd.png)
+
 In the example Makefile, we compute everything with double values (float64)
 and then use sox audio utility to convert everything to float values (float32)
 
