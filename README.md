@@ -16,7 +16,7 @@ and then use sox audio utility to convert everything to float values (float32)
 
 Additionally we have a stage1 audio output file which is just the original file unaltered, and then a stage2 audio output which is the filtered output.
 
-The filter is applied to each second of audio.
+The filter is applied to each second of audio. However you can adjust this by calling applyenv with another parameter, a so called scaling factor with say a value of 0.5 which would represent that the filter be applied for every 2 seconds of audio.
 
 You can use a program like audacity to import and play back the audio file.
 For example, File menu, Import, Raw Audio, Select the file, and then set the parameters to correctly match:
